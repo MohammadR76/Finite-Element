@@ -2,7 +2,7 @@
 
 ### Gauss–Jordan Code
 
-In the file `Gauss-Jordan.f95`, a subroutine has been developed in Fortran to implement the **Gauss–Jordan elimination algorithm**.  
+In the file `Subroutine/Gauss-Jordan.f95`, a subroutine has been developed in Fortran to implement the **Gauss–Jordan elimination algorithm**.  
 This subroutine utilizes elementary row operations to solve systems of linear equations of the form $A\mathbf{x} = \mathbf{B}$, where $A$ is a square matrix of large dimension.
 
 The algorithm proceeds in two main steps:  
@@ -16,3 +16,4 @@ In addition to solving the linear system, the subroutine can also compute:
 - the **rank of the matrix**  
 - and the **inverse** of the square matrix.
 
+![Gauss–Jordan Elimination photo](Picture/Picture1.png)
